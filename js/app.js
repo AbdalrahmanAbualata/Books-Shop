@@ -1,7 +1,6 @@
 "use strict";
 let formEl = document.getElementById("bookForm");
 let tbodyEl = document.getElementById('tbody');
-let spanEl = document.getElementById('total');
 Book.bookList = [];
 
 function Book(bookName, bookPages, bookPrice) {
@@ -64,6 +63,7 @@ function renderTable() {
         tbodyEl.appendChild(trEl);
 
     }
+    let spanEl = document.getElementById('total');
     spanEl.textContent = `Total : ${total}`
 }
 renderTable();

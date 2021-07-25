@@ -31,6 +31,7 @@ main{
     height:630px;
 }
 #formDiv{
+    border-radius: 5px;
     position: absolute;
     top: 50px;
     left: 20px;
@@ -39,11 +40,17 @@ opacity: 0.9;
 padding: 20PX;
 font-size: 15px;
 }
+#bookName{
+    margin-left: 111px;
+    width: 178px;
+}
 select{
-    width: 180px;
+    width: 178px;
+    margin-left: 117px;
 }
 
 #tableDiv{
+    border-radius: 5px;
     position: absolute;
     right: 5%;  
     top: 50px;
@@ -51,6 +58,11 @@ select{
     opacity: 0.9;
     padding: 20px;
 
+}
+#submit{
+background-color: #C68B59;
+width: 180px;
+margin-left: 193px;
 }
 
 footer{
